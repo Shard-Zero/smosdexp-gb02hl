@@ -1,0 +1,22 @@
+window.__RUNTIME_CONFIG__ = {
+  "VITE_APP_NAME": "smosdexp",
+  "VITE_APP_DESCRIPTION": "Perpetual trading simplified and decentralized!",
+  "VITE_ORDERLY_BROKER_NAME": "smosdexp",
+  "VITE_BASE_URL": "/smosdexp-gb02hl/",
+  "VITE_DISABLE_MAINNET": "false",
+  "VITE_DISABLE_TESTNET": "false",
+  "VITE_ORDERLY_MAINNET_CHAINS": "",
+  "VITE_ORDERLY_TESTNET_CHAINS": "97",
+  "VITE_DEFAULT_CHAIN": "",
+  "VITE_ORDERLY_BROKER_ID": "",
+  "VITE_WALLETCONNECT_PROJECT_ID": "",
+  "VITE_PRIVY_APP_ID": "",
+  "VITE_PRIVY_TERMS_OF_USE": "",
+  "VITE_PRIVY_LOGIN_METHODS": "email",
+  "VITE_ENABLE_ABSTRACT_WALLET": "false",
+  "VITE_DISABLE_EVM_WALLETS": "false",
+  "VITE_DISABLE_SOLANA_WALLETS": "false",
+  "VITE_PRIMARY_LOGO_PATH": "/logo.png",
+  "VITE_SECONDARY_LOGO_PATH": "/logo-secondary.png",
+  "VITE_FAVICON_PATH": "/favicon.png"
+};

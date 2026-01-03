@@ -36,7 +36,7 @@ jobs:
           
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build/client  # Corrected for Vite
+          path: ./build/client
 
   deploy:
     environment:

@@ -1,70 +1,77 @@
+/* Shard Zero Generated Theme */
+/* Generated at: 2026-01-03T16:21:05.115Z */
+
 :root {
   --oui-font-family: 'Manrope', sans-serif;
 
-  /* colors */
+  /* Primary Colors */
   --oui-color-primary: 41 98 255;
-  --oui-color-primary-light: 118 143 255;
-  --oui-color-primary-darken: 0 57 203;
+  --oui-color-primary-light: 71 128 255;
+  --oui-color-primary-darken: 1 58 215;
   --oui-color-primary-contrast: 255 255 255;
 
   --oui-color-link: 41 98 255;
-  --oui-color-link-light: 118 143 255;
+  --oui-color-link-light: 0 57 203;
 
   --oui-color-secondary: 255 255 255;
   --oui-color-tertiary: 218 218 218;
   --oui-color-quaternary: 218 218 218;
 
-  --oui-color-danger: 255 85 85;
-  --oui-color-danger-light: 255 120 120;
-  --oui-color-danger-darken: 200 50 50;
-  --oui-color-danger-contrast: 255 255 255;
-
+  /* Status Colors */
   --oui-color-success: 0 179 134;
-  --oui-color-success-light: 0 215 160;
-  --oui-color-success-darken: 0 140 105;
+  --oui-color-success-light: 60 239 194;
+  --oui-color-success-darken: 0 139 94;
   --oui-color-success-contrast: 255 255 255;
+
+  --oui-color-danger: 255 85 85;
+  --oui-color-danger-light: 255 145 145;
+  --oui-color-danger-darken: 215 45 45;
+  --oui-color-danger-contrast: 255 255 255;
 
   --oui-color-warning: 255 209 70;
   --oui-color-warning-light: 255 229 133;
   --oui-color-warning-darken: 255 152 0;
   --oui-color-warning-contrast: 255 255 255;
 
-  --oui-color-fill: 36 32 47;
-  --oui-color-fill-active: 40 46 58;
+  /* Background & Fill Colors */
+  --oui-color-fill: 18 19 29;
+  --oui-color-fill-active: 28 29 39;
 
-  --oui-color-base-1: 30 32 40;
-  --oui-color-base-2: 27 29 36;
-  --oui-color-base-3: 24 26 32;
-  --oui-color-base-4: 21 23 29;
-  --oui-color-base-5: 18 19 29;
-  --oui-color-base-6: 15 16 26;
-  --oui-color-base-7: 11 12 20;
-  --oui-color-base-8: 9 9 15;
-  --oui-color-base-9: 6 6 10;
-  --oui-color-base-10: 2 2 5;
+  /* Base Color Palette (10 steps) */
+  --oui-color-base-1: 18 19 29;
+  --oui-color-base-2: 16 17 26;
+  --oui-color-base-3: 14 15 23;
+  --oui-color-base-4: 13 13 20;
+  --oui-color-base-5: 11 11 17;
+  --oui-color-base-6: 9 10 15;
+  --oui-color-base-7: 7 8 12;
+  --oui-color-base-8: 5 6 9;
+  --oui-color-base-9: 4 4 6;
+  --oui-color-base-10: 2 2 3;
 
   --oui-color-base-foreground: 255 255 255;
   --oui-color-line: 30 32 40;
 
+  /* Trading Colors */
   --oui-color-trading-loss: 255 85 85;
   --oui-color-trading-loss-contrast: 255 255 255;
   --oui-color-trading-profit: 0 179 134;
   --oui-color-trading-profit-contrast: 255 255 255;
 
-  /* gradients */
-  --oui-gradient-primary-start: 10 20 60;
+  /* Gradients */
+  --oui-gradient-primary-start: 0 18 175;
   --oui-gradient-primary-end: 41 98 255;
 
-  --oui-gradient-secondary-start: 20 50 130;
-  --oui-gradient-secondary-end: 118 143 255;
+  --oui-gradient-secondary-start: 0 48 205;
+  --oui-gradient-secondary-end: 41 98 255;
 
-  --oui-gradient-success-start: 0 90 67;
+  --oui-gradient-success-start: 0 119 74;
   --oui-gradient-success-end: 0 179 134;
 
-  --oui-gradient-danger-start: 128 42 42;
+  --oui-gradient-danger-start: 195 25 25;
   --oui-gradient-danger-end: 255 85 85;
 
-  --oui-gradient-brand-start: 20 50 130;
+  --oui-gradient-brand-start: 121 178 255;
   --oui-gradient-brand-end: 41 98 255;
   --oui-gradient-brand-stop-start: 6.62%;
   --oui-gradient-brand-stop-end: 86.5%;
@@ -73,10 +80,10 @@
   --oui-gradient-warning-start: 152 58 8;
   --oui-gradient-warning-end: 255 209 70;
 
-  --oui-gradient-neutral-start: 27 29 24;
-  --oui-gradient-neutral-end: 38 41 46;
+  --oui-gradient-neutral-start: 4 4 6;
+  --oui-gradient-neutral-end: 7 8 12;
 
-  /* rounded */
+  /* Border Radius */
   --oui-rounded-sm: 2px;
   --oui-rounded: 4px;
   --oui-rounded-md: 6px;
@@ -85,7 +92,7 @@
   --oui-rounded-2xl: 16px;
   --oui-rounded-full: 9999px;
 
-  /* spacing */
+  /* Spacing */
   --oui-spacing-xs: 20rem;
   --oui-spacing-sm: 22.5rem;
   --oui-spacing-md: 26.25rem;
