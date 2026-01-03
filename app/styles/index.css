@@ -1,0 +1,60 @@
+@import "@orderly.network/ui/dist/styles.css";
+@import "../styles/theme.css";
+@import "../styles/fonts.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* hide trading rewards on mobile */
+.oui-portfolio-page .oui-box.oui-flex.oui-flex-nowrap>div:nth-child(2).oui-box.oui-flex.oui-justify-start.oui-flex-nowrap.oui-relative {
+  display: none;
+}
+
+html,
+body {
+  background-color: rgb(var(--oui-color-base-9));
+  color: rgb(var(--oui-color-base-foreground));
+}
+
+/* Force hide default Orderly footer logo by attribute matching */
+footer svg[width="45"][height="14"] {
+  display: none !important;
+}
+
+/* Footer price ticker/carousel animation */
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker-wrap {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  flex: 1 !important;
+  min-width: 0;
+}
+
+.ticker-content {
+  display: inline-block;
+  animation: ticker 300s linear infinite;
+  padding-left: 100%;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.ticker-wrap:hover .ticker-content {
+  animation-play-state: paused;
+}
+
+.ticker-item {
+  display: inline-block;
+  padding: 0 4rem;
+  vertical-align: middle;
+}

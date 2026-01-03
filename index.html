@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/webp" href="./favicon.webp" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="manifest" href="./manifest.json" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="apple-touch-icon" href="./favicon.webp" />
+
+  <title>Shard DEX</title>
+  <script>
+    (function () {
+      console.log("SHARD ZERO RUNTIME FIX v2.1 LOADED");
+      const nuke = () => {
+        // Target specifically by viewBox and width
+        const logos = document.querySelectorAll('svg[viewBox="0 0 45 14"], svg[width="45"][height="14"]');
+        logos.forEach(svg => {
+          svg.style.display = 'none';
+          svg.style.visibility = 'hidden';
+          svg.style.opacity = '0';
+          // If in a link, hide the link too
+          if (svg.parentElement && svg.parentElement.tagName === 'A') {
+            svg.parentElement.style.display = 'none';
+          }
+        });
+      };
+      const observer = new MutationObserver(nuke);
+      observer.observe(document.documentElement, { childList: true, subtree: true });
+      nuke(); // Run immediately
+    })();
+  </script>
+  <style>
+    /* Global CSS fallback for the same target */
+    svg[viewBox="0 0 45 14"],
+    svg[width="45"][height="14"] {
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="./app/main.tsx"></script>
+</body>
+
+</html>
