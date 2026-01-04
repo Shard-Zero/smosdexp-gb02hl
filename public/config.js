@@ -16,7 +16,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_ENABLE_ABSTRACT_WALLET": "false",
   "VITE_DISABLE_EVM_WALLETS": "false",
   "VITE_DISABLE_SOLANA_WALLETS": "false",
-  "VITE_PRIMARY_LOGO_PATH": "/logo.jpg",
+  "VITE_PRIMARY_LOGO_PATH": "/logo.png",
   "VITE_SECONDARY_LOGO_PATH": "/logo-secondary.png",
   "VITE_FAVICON_PATH": "/favicon.png"
 };

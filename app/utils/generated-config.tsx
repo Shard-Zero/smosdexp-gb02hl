@@ -1,10 +1,10 @@
 // Shard Zero Generated Configuration
-// Generated at: 2026-01-04T12:31:56.011Z
+// Generated at: 2026-01-04T14:25:36.403Z
 
 export const appConfig = {
     // Branding
     logos: {
-        main: "/logo.jpg",
+        main: "/logo.png",
         secondary: "/logo-secondary.png",
         favicon: "/favicon.png",
     },
